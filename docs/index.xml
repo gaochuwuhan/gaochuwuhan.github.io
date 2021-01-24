@@ -6,15 +6,24 @@
     <description>Recent content on Bai&#39;s Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 18:57:42 +0800</lastBuildDate><atom:link href="https://gaochuwuhan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 19:42:55 +0800</lastBuildDate><atom:link href="https://gaochuwuhan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exam</title>
+      <link>https://gaochuwuhan.github.io/posts/exam/</link>
+      <pubDate>Sun, 24 Jan 2021 19:42:55 +0800</pubDate>
+      
+      <guid>https://gaochuwuhan.github.io/posts/exam/</guid>
+      <description>from django.shortcuts import render from django.http import HttpResponse import json def user(request): user_list=[&amp;#39;bai&amp;#39;,&amp;#39;hei&amp;#39;] return HttpResponse(json.dumps((user_list))) </description>
+    </item>
+    
     <item>
       <title>Http请求的完全过程</title>
       <link>https://gaochuwuhan.github.io/posts/http%E8%AF%B7%E6%B1%82%E7%9A%84%E5%AE%8C%E5%85%A8%E8%BF%87%E7%A8%8B/</link>
       <pubDate>Sun, 24 Jan 2021 18:57:42 +0800</pubDate>
       
       <guid>https://gaochuwuhan.github.io/posts/http%E8%AF%B7%E6%B1%82%E7%9A%84%E5%AE%8C%E5%85%A8%E8%BF%87%E7%A8%8B/</guid>
-      <description>http请求的完全过程 1.1 浏览器根据域名解析ip地址（三层） 1.2 浏览器与web服务器建立一个tcp连接（四层）  TCP 的三次握手  1.3 浏览器给web服务器发送一个http请求（应用层，本文主要说明） 请求报文：一个http请求报文由请求行（request line）、请求头部（headers）、空行（blank line）、请求数据（request body）4部分组成
-1.3.1 请求行 请求行分为三个部分：  request： 包括 - headers - body  response 包括 - headers - body  get 查询资源  </description>
+      <description>http请求的完全过程 1.1 浏览器根据域名解析ip地址（三层） 1.2 浏览器与web服务器建立一个tcp连接（四层）  TCP 的三次握手  1.3 浏览器给web服务器发送一个http请求（应用层，本文主要说明） 请求报文：一个http请求报文由4部分组成：
+ 请求行（request line）：发送请求命令，一旦建立了tcp连接，web浏览器就会向服务器发送请求命令，例如 GET/sample/hello.jsp HTTP1.1 请求头部（request header）：浏览器发送命令之后还要以头信息的形式向web server发一些比的信息，例如  Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8 Accept-Encoding: gzip, deflate, br Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7 Cache-Control: no-cache Connection: keep-alive Cookie: csrftoken=JwbbDzbfK1x0nIr3ZyzfVbfilsuuzI7r2Jay6sMCVD1TnhvlBHqvNSOpEOssePkH Host: 127.0.0.1:1313 Pragma: no-cache Referer: http://127.0.0.1:1313/posts/exam/ sec-ch-ua: &amp;quot;Google Chrome&amp;quot;;v=&amp;quot;87&amp;quot;, &amp;quot; Not;A Brand&amp;quot;;v=&amp;quot;99&amp;quot;, &amp;quot;Chromium&amp;quot;;v=&amp;quot;87&amp;quot; sec-ch-ua-mobile: ?0 Sec-Fetch-Dest: image Sec-Fetch-Mode: no-cors Sec-Fetch-Site: same-origin User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36  空行（blank line）:当headers发送之后，还要发送一空白行告诉服务器，他已经结束了该头消息的发送 请求数据（request body）  1.</description>
     </item>
     
     <item>
