@@ -6,7 +6,17 @@
     <description>Recent content on Bai&#39;s Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 17:46:33 +0800</lastBuildDate><atom:link href="https://gaochuwuhan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 18:57:42 +0800</lastBuildDate><atom:link href="https://gaochuwuhan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Http请求的完全过程</title>
+      <link>https://gaochuwuhan.github.io/posts/http%E8%AF%B7%E6%B1%82%E7%9A%84%E5%AE%8C%E5%85%A8%E8%BF%87%E7%A8%8B/</link>
+      <pubDate>Sun, 24 Jan 2021 18:57:42 +0800</pubDate>
+      
+      <guid>https://gaochuwuhan.github.io/posts/http%E8%AF%B7%E6%B1%82%E7%9A%84%E5%AE%8C%E5%85%A8%E8%BF%87%E7%A8%8B/</guid>
+      <description>http请求的完全过程 1.1 浏览器根据域名解析ip地址（三层） 1.2 浏览器与web服务器建立一个tcp连接（四层）  TCP 的三次握手  1.3 浏览器给web服务器发送一个http请求（应用层，本文主要说明） 请求报文：一个http请求报文由请求行（request line）、请求头部（headers）、空行（blank line）、请求数据（request body）4部分组成
+1.3.1 请求行 请求行分为三个部分：  request： 包括 - headers - body  response 包括 - headers - body  get 查询资源  </description>
+    </item>
+    
     <item>
       <title>My First Post</title>
       <link>https://gaochuwuhan.github.io/posts/my-first-post/</link>
